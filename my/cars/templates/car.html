@@ -1,0 +1,21 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        h1{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+{% for i in car %}
+<h1>{{i.brend}}</h1>
+<h3>{{i.marka}}</h3>
+<h3>{{i.power}}</h3>
+<h3> {{i.level}}</h3>
+{% endfor %}
+</body>
+</html>
